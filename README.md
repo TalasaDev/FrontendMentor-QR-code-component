@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: (https://github.com/TalasaDev/FrontendMentor-QR-code-component/settings/pages)](https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com](https://talasadev.github.io/FrontendMentor-QR-code-component/)
+- Live Site URL: (https://talasadev.github.io/FrontendMentor-QR-code-component/)
 
 ## My process
 
@@ -49,7 +49,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 }
 ```
 - **Centering a DIV:**: Repeat avec moi: margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,...
-  Centering a <div>, in this case, the Qr component. I started with "mobile-first design" where everything was marvelously perfect in a to-good-to-be-truth scenario. When changing the size of the browser, everything stayed stuck to the left side. It was super mean. Adding in the body {margin: auto} is the ticket to Wonderland.
+  Centering a [<div>], in this case, the Qr component. I started with "mobile-first design" where everything was marvelously perfect in a to-good-to-be-truth world. When changing the size of the browser, everything stayed stuck to the left side. It was super mean. Adding the property {margin: auto} in the body is the ticket to Wonderland.
 
 ```HTML
 body {    
@@ -62,7 +62,7 @@ body {
 
 ### Continued development
 
-In the next projects, I will focus in working with different layouts, not only flexbox,responsiveness, and using the proper mark up to warranty a good accessibility.
+In the next projects, will focus in working with different layouts, not only flexbox,responsiveness, and using the proper mark up to ensure a good accessibility.
 
 ### Useful resources
 
