@@ -101,7 +101,7 @@ body {
 
 ### Continued development
 
-In the next projects, will focus in working with different layouts, not only flexbox,responsiveness, and using the proper mark up to ensure a good accessibility.
+In the next projects, will focus in working with different layouts, not only flexbox, responsiveness, and using the proper mark up to ensure a good accessibility.
 
 ### Useful resources
 
