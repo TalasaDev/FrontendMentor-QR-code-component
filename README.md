@@ -10,6 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Changes made after solution - design comparison](#changes-after-solution-design-comparison)
+  - [Changes made after accessibility, HTML, CSS report](#changes-after-accessibility-html-css-report)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -31,7 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5 markup 
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
@@ -49,7 +51,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 }
 ```
 - **Centering a DIV:**: Repeat avec moi: margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,margin: auto, margin: auto, margin: auto,...
-  Centering a [<div>], in this case, the Qr component. I started with "mobile-first design" where everything was marvelously perfect in a to-good-to-be-truth world. When changing the size of the browser, everything stayed stuck to the left side. It was super mean. Adding the property {margin: auto} in the body is the ticket to Wonderland.
+  Centering a div, in this case, the Qr component. I started with mobile-first design approach, where everything was marvelously perfect in a to-good-to-be-truth world. When changing the size of the browser, everything stayed stuck to the left side. It was super mean. Adding the property {margin: auto} in the body is the ticket to Wonderland.
 
 ```HTML
 body {    
@@ -57,6 +59,43 @@ body {
 }
 ```
 - **Object-fit property:** sets how an image or video is resized to fit its container. It can take values like fill, contain, cover, none, and scale-down, allowing you to maintain aspect ratios or fill the space as needed.
+
+### Changes made after solution - design comparison**.
+- **Vertically and horizontally center a div**:
+  
+```CSS
+    body {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+```
+- **Reducing code component size**.
+- **Change H1 color to --blue**.
+
+### Changes made after accessibility, HTML, CSS report.
+- **ERROR:** Use only recognized property values to ensure styles apply correctly and consistently: Changed from hsl(218, 44%, 22) to var(--blue).
+  ```CSS
+      .text {
+          color: hsl(218, 44%, 22);
+      }
+  ```
+- **WARNING - RESPONSIVE DESIGN.** Consider using relative units (em, rem) instead of absolute units (px, pt) to support resizing and improve accessibility.
+  ```CSS
+      /* Quick reminder: 1 rem = 16px  */
+
+  ```
+- **BEST PRACTICES:** 
+- Use logical properties (e.g., inline-start instead of left) to support different reading directions and improve internationalization.
+   ```css
+         p {
+         margin-top: 30px;
+        }
+   ```
+
+- Consider using CSS functions like calc(), min(), and clamp() to create more responsive and flexible layouts that adapt to different viewport sizes.  
 
 
 
